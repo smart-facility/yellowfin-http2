@@ -6,7 +6,7 @@ It is possible to take advantage of this for serving [YellowFin](http://http://w
 * More lightweight, and
 * Optimized for reverse proxying and caching.
 
-The following sections outline (in order) the steps to get it working
+The following sections outline (in order) the steps to get it working. Note that although http/2 does not require encryption, all current implementations require it, and it's a good idea anyway, so you will need a [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) certificate as part of this.
 
 # Setup
 ## YellowFin tomcat setup
